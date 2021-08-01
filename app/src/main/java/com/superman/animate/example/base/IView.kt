@@ -1,0 +1,1 @@
+package com.superman.animate.example.baseimport android.view.Viewinterface IView {    fun showLoading()    fun hideLoading()    fun showToast(text: String)}

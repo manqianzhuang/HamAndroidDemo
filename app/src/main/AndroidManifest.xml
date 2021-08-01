@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.superman.animate">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+        <activity android:name=".customview.day1.CustomViewBitmapShaperActivity"></activity>
+        <activity android:name=".navigation.NavigationTestActivity" />
+        <activity android:name=".aidl.AIDLActivity" />
+        <activity android:name=".example.MvvmExampleActivity" />
+        <activity android:name=".rxjava.RxjavaTestActivity" />
+        <activity android:name=".event.AndroidEventActivity" />
+        <activity android:name=".thread.ThreadTestActivity" />
+        <activity android:name=".animator.ObjectAnimateActivity" />
+        <activity android:name=".handlerthread.HandlerTestActivity" />
+        <activity android:name=".widget.LargeImageActivity" />
+        <activity android:name=".design_mode.DesignModeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- <data -->
+                <!-- android:mimeType="text/plain" -->
+                <!-- android:scheme="https" -->
+                <!-- android:host="www.baidu.com" -->
+                <!-- /> -->
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.superman.maidl.BookService"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.superman.maidl.ACTION_BOOK_MANAGER" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">KotWanAndroid</string>
+
+    <string name="home">首页</string>
+    <string name="project">项目</string>
+    <string name="system">体系</string>
+    <string name="mine">我的</string>
+    <string name="please_input_search_content">请输入搜索内容</string>
+    <string name="search">搜索</string>
+    <string name="favorite">favorite</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_account">注册账号?</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_cancel">分享取消</string>
+    <string name="share_auth_failed">分享授权失败</string>
+    <string name="share_unsupported">分享不支持</string>
+    <string name="share_unknown">分享未知错误</string>
+    <string name="click_to_login">未登录,点击登录</string>
+    <string name="logout">退出登录</string>
+    <string name="app_desc">WanAndroid 使用 MVP+RxJava+OkHttp实现好用的学习阅读类客户端,包括首页，项目，体系，干货，搜索，收藏，妹子等功能。\n</string>
+    <string name="app_address">项目地址 : </string>
+</resources>
